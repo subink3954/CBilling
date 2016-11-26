@@ -8,9 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane xmlns:fx="http://javafx.com/fxml/1"  id="rootPane" 
-            xmlns="http://javafx.com/javafx/8" 
-fx:controller="billingapp.controller.MainController">
+<BorderPane id="rootPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="billingapp.controller.MainController">
    <center>
       <BorderPane prefHeight="368.0" prefWidth="713.0" BorderPane.alignment="CENTER">
          <top>
@@ -18,7 +16,7 @@ fx:controller="billingapp.controller.MainController">
               <menus>
                 <Menu mnemonicParsing="false" text="File">
                   <items>
-                      <MenuItem mnemonicParsing="false" text="New Bill" onAction="#onNewBillDialogAction" />
+                      <MenuItem mnemonicParsing="false" onAction="#onNewBillDialogAction" text="New Invoice" />
                       <MenuItem mnemonicParsing="false" text="Close" />
                   </items>
                 </Menu>
@@ -29,24 +27,25 @@ fx:controller="billingapp.controller.MainController">
                 </Menu>
                 <Menu mnemonicParsing="false" text="Help">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="About" onAction="#onAboutDialogAction" />
+                    <MenuItem mnemonicParsing="false" onAction="#onAboutDialogAction" text="About" />
                   </items>
                 </Menu>
               </menus>
             </MenuBar>
          </top>
          <center>
-            <TabPane fx:id="tabPane"  prefHeight="353.0" prefWidth="796.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+            <TabPane fx:id="tabPane" prefHeight="353.0" prefWidth="796.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
               
             </TabPane>
          </center>
          <left>
-             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: F5DEB3;" >
                <children>
-                  <ImageView fx:id="leftImageView" fitHeight="341.0" fitWidth="200.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" >
+                  <ImageView fx:id="leftImageView" fitHeight="341.0" fitWidth="200.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
                        
                       
-                  </ImageView>    
+                  </ImageView>
+  
                </children></AnchorPane>
          </left>    
       </BorderPane>
