@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  *
  * @author arun
  */
-public class BillController implements TabContent {
+public class InvoiceController implements TabContent {
 
     private Stage mainWindow;
     private TabPane tabPane;

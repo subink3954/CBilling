@@ -64,7 +64,7 @@ public class MainController  {
     
     @FXML
     private void onNewBillDialogAction(ActionEvent event) {
-        addTab("Bill", "New Bill");
+        addTab("Invoice", "New Invoice");
     }
     
     private void addTab(final String fxmlFileName, final String title) {
