@@ -8,6 +8,8 @@ package billingapp.controller;
 import billingapp.utility.TabContent;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TabPane;
 import javafx.stage.Stage;
@@ -21,6 +23,35 @@ public class InvoiceController implements TabContent {
 
     private Stage mainWindow;
     private TabPane tabPane;
+    
+    @FXML
+    private void onInvoiceItemAddAction(ActionEvent event) {
+        
+    }
+    @FXML
+    private void onCustomersRefreshAction(ActionEvent event) {
+        
+    }
+    @FXML
+    private void onItemsRefreshAction(ActionEvent event) {
+        
+    }
+    @FXML
+    private void onUnitsRefreshAction(ActionEvent event) {
+        
+    }
+    @FXML
+    private void onInvoiceItemDeleteAction(ActionEvent event) {
+        
+    }
+    @FXML
+    private void onSaveInvoiceAction(ActionEvent event) {
+        
+    }   
+    @FXML
+    private void onCloseTabAction(ActionEvent event) {
+        
+    }
     
     /**
      * Initializes the controller class.
