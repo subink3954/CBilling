@@ -1,5 +1,5 @@
 # BillingApp
-Billing app is a desktop application which is implemented using JavaFx
+A Common billing application which can be used in any industry
 #BillingService
 Billing Service is the service part which will run on Jetty server. We use gradle as dependancy manager. 
 So please follow below commands to configure gradle in your workstation.
