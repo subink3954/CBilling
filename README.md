@@ -1,5 +1,5 @@
 # CBilling
-A Common billing application which can be used in any industry
+A Common billing application which can be used in any industry. This application has 2 parts, one is for presentation which is implemented in JavaFx and the other is service part which handles data persistence which is implemented in Spring REST
 #BillingService
 Billing Service is the service part which will run on Jetty server. We use gradle as dependancy manager. 
 So please follow below commands to configure gradle in your workstation.
