@@ -1,4 +1,4 @@
-# BillingApp
+# CBilling
 A Common billing application which can be used in any industry
 #BillingService
 Billing Service is the service part which will run on Jetty server. We use gradle as dependancy manager. 
